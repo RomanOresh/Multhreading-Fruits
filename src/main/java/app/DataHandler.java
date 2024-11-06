@@ -5,7 +5,7 @@ import static java.lang.Thread.currentThread;
 
 public class DataHandler {
 
-    String[] fruits = new DataRepository().getData();
+    private String[] fruits = new DataRepository().getData();
 
     public void getOutput() {
         // критичний блок коду
